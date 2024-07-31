@@ -6,12 +6,12 @@ import Footer from "@/components/Footer";
 
 const raleway = Raleway({ 
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
+  weight: ["400", "500", "600", "700", "800", "900"],
   display: "swap",
  });
 
 export const metadata: Metadata = {
-  title: "Digit-NFT",
+  title: "NFT",
   description: "Non-Fongible Token Website",
 };
 
