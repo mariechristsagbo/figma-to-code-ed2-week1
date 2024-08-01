@@ -12,8 +12,8 @@ export default function Footer() {
 
       <hr className="text-gray-400 my-3" />
       <div className="my-8 flex flex-col text-left md:flex-row justify-between gap-4">
-        <h1 className="lg:text-2xl text-xl font-semibold">Create Explore & Collect Digital  NFTs</h1>
-        <ul className="flex space-x-10 text-neutral-700 text-md font-medium items-center">
+        <h1 className="lg:text-2xl text-lg font-semibold">Create Explore & Collect Digital  NFTs</h1>
+        <ul className="flex space-x-10 text-neutral-700 sm:text-md text-sm font-medium items-center">
           <Link href="/" className="cursor-pointer hover:text-black">
             Privacy
           </Link>

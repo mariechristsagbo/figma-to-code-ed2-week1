@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 export default function HeroSection() {
   return (
-    <div className="pt-32 pb-20">
-      <div className="flex flex-col lg:flex-row items-center md:items-start space-y-14 md:space-y-0 md:space-x-14">
+    <section className="pt-32 pb-20">
+      <div className="flex flex-col lg:flex-row items-center md:items-start space-y-14 md:space-y-0 md:space-x- px-8 lg:px-2">
         <div className="flex flex-col space-y-14 md:w-1/2">
           <h1 className="lg:text-8xl text-6xl text-neutral-800 font-normal">See the NFT <br />new world</h1>
           <p className="text-neutral-400 font-semibold max-w-lg">Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, di</p>
@@ -43,6 +43,6 @@ export default function HeroSection() {
         </div>
 
       </div>
-    </div>
+    </section>
   )
 }

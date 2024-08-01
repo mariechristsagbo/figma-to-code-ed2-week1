@@ -3,21 +3,21 @@ import Image from 'next/image'
 import { categories, collections } from '@/constants'
 export default function Collections() {
     return (
-        <section className='border'>
-            <h1 className='text-2xl py-4 font-bold px-8 sm:px-0'> Our Collections</h1>
-            <div className='flex items-center justify-between px-6 lg:px-0'>
-                <div className='my-2  items-center gap-2 hidden'>
+        <section>
+            <h1 className='text-2xl py-4 font-bold px-8 lg:px-2'> Our Collections</h1>
+            <div className='flex items-center justify-between px-8 lg:px-2'>
+                <div className='my-2  items-center gap-2 flex flex-wrap'>
                     <button className="bg-black text-neutral-50 font-semibold text-sm px-4 py-3 rounded-xl ">All categories</button>
                     {categories.map((category, index) => (
                         <button
                             key={index}
-                            className="bg-gray-200 text-neutral-950 font-semibold text-sm px-4 py-3 rounded-xl hover:text-white hover:bg-black"
+                            className="bg-gray-200 text-neutral-950 font-semibold sm:text-sm text-xs px-4 py-3 rounded-xl hover:text-white hover:bg-black"
                         >
                             {category}
                         </button>
                     ))}
                 </div>
-                <p className='text-md underline'>View More</p>
+                <p className='sm:text-md text-sm underline sm:block hidden'>View More</p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 my-6 place-items-center max-w-2xl mx-auto lg:max-w-max">

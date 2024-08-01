@@ -1,6 +1,6 @@
 export default function CallToAction() {
     return (
-        <section className="w-full text-white font-semibold my-8 px-2 lg:px-0">
+        <section className="w-full text-white font-semibold my-8 px-2 lg:px-2">
             <div className="border rounded-3xl bg-calltoaction bg-cover relative overflow-hidden">
                 <div className="absolute inset-0 bg-black bg-opacity-40"></div>
                 <div className="relative flex flex-col items-center space-y-5 my-8 py-11">
