@@ -40,7 +40,7 @@ export default function Header() {
                             Sign up
                         </button>
 
-                        <button className="text-md text-white font-semibold bg-black py-3 px-3 rounded-full w-40">
+                        <button className="text-md text-white font-semibold bg-black py-3 px-3 rounded-full w-40 hover:bg-opacity-80">
                             Connect Wallet
                         </button>
                     </div>

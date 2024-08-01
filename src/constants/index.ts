@@ -21,3 +21,26 @@ export const collections = [
       alt: "Snoop Dogg",
     },
   ];
+  export const services = [
+    {
+      icon: "/icons/wallet.svg",
+      title: "Set up your wallet",
+      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+    },
+    {
+      icon: "/icons/cloud.svg",
+      title: "Add your NFT's",
+      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+    },
+  
+    {
+      icon: "/icons/sale-tag.svg",
+      title: "Promote your NFT's",
+      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+    },
+    {
+      icon: "/icons/bitcoin-ellipse.svg",
+      title: "Sell your NFT's",
+      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+    },
+  ];
