@@ -8,7 +8,8 @@ const config: Config = {
   ],
   theme: {
     extend: {
-     colors: {
+     backgroundImage: {
+      "calltoaction" : "url('/images/BIC-NFT.svg')"
      }
     },
   },
