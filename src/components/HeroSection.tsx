@@ -51,20 +51,20 @@ export default function HeroSection() {
             }}
             className="relative overflow-hidden rounded-full w-[200px] h-[250px] sm:w-[200px] sm:h-[300px] md:w-[250px] md:h-[400px] mt-16 sm:mt-24 md:mt-32">
 
-            {/* <Image
+            <Image
               src="/images/herosection-image1.svg"
               alt="First Image"
               layout="fill"
               objectFit="cover"
               className="rounded-full"
-            /> */}
-            <Image
+            />
+            {/* <Image
               alt="Ellipse"
               src='/images/circle.svg'
               width={100}
               height={100}
               className="absolute top-0 left-0"
-            />
+            /> */}
           </div>
 
           <div
