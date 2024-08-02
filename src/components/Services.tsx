@@ -8,7 +8,7 @@ export default function Services() {
 
       <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4 mt-8 max-w-2xl mx-auto lg:max-w-full">
         {services.map((service, index) => (
-          <div className="bg-neutral-100 rounded-3xl p-4 px-6 max-w-xs mx-auto" key={index}>
+          <div className="bg-neutral-100 rounded-3xl p-4 px-6 max-w-xs mx-auto hover:bg-opacity-50" key={index}>
             <div className="bg-black max-w-max rounded-lg p-2 flex my-4 justify-start">
               <Image src={service.icon} width={35} height={35} alt={service.title} />
             </div>

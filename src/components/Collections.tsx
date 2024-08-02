@@ -17,7 +17,7 @@ export default function Collections() {
                         </button>
                     ))}
                 </div>
-                <p className='sm:text-md text-sm underline sm:block hidden'>View More</p>
+                <p className='sm:text-md text-sm underline sm:block hidden cursor-pointer'>View More</p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 my-6 place-items-center max-w-2xl mx-auto lg:max-w-max">

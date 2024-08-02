@@ -53,7 +53,7 @@ export default function Header() {
             </header>
 
             {/* Mobile Header */}
-            <header className="lg:hidden flex items-center justify-between py-7 px-10">
+            <header className="lg:hidden flex items-center justify-between py-7 px-10 border-b">
                 <Image
                     alt="Digi-NFT Logo"
                     src="/images/logo.svg"
