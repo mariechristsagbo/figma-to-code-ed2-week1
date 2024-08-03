@@ -18,7 +18,7 @@ export default function HeroSection() {
   }, []);
   return (
     <section className="sm:pt-32 pb-20 pt-20">
-      <div className="flex flex-col lg:flex-row items-center md:items-start space-y-14 md:space-y-0 px-8 lg:px-2">
+      <div className="flex flex-col lg:flex-row items-center md:items-start space-y-14 md:space-y-0 px-2 sm:px-8 lg:px-2">
         <div className="flex flex-col space-y-14 md:w-1/2">
           <h1 className="lg:text-8xl sm:text-6xl text-5xl text-neutral-800 font-normal">See the NFT <br />new world</h1>
           <p className="text-neutral-400 font-semibold max-w-lg">Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, di</p>
